@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сalon услуг печати 'Симка'</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo">
+    </header>
+    <main>
+        <h1>Добро пожаловать в салон услуг печати 'Симка'!</h1>
+        <nav>
+<!--            <a href="/">Главная</a>-->
+            <a href="/services">Услуги</a>
+<!--            <a href="/price">Прайс</a>-->
+            <a href="/working_hours">Режим работы</a>
+            <a href="/contacts">Контакты</a>
+        </nav>
+        <section>
+            <p>Печатный салон «Simka Birsk» - компания, которая предлагает цветную и ч/б печатную продукцию по доступным ценам!</p>
+        </section>
+    </main>
+</body>
+</html>

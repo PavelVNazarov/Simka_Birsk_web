@@ -1,0 +1,14 @@
+simka_web/
+│
+├── app.py                # Основной файл приложения
+├── config.py             # Конфигурация (токен и другие настройки)
+├── handlers.py           # Обработчики команд и сообщений
+├── templates/            # Папка с HTML-шаблонами
+│   ├── index.html
+│   └── layout.html
+├── static/               # Папка со статическими файлами
+│   ├── images/
+│   │   ├── logo.png
+│   │   ├── working_hours.png
+│   │   └── services.png
+└── requirements.txt      # Зависимости
